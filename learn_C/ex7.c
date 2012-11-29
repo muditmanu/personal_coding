@@ -18,7 +18,6 @@ int main(int argc, char *argv[]){
     // this makes no sense, just a demo of something weird
     char nul_byte = '\0';
     int care_percentage = bugs * nul_byte;
-    printf("Printing nul_byte as a string %s.\n", nul_byte);
     printf("Printing nul_byte as a chracter %c.\n", nul_byte);
     printf("Which means you should care %d%%.\n", care_percentage);
 
